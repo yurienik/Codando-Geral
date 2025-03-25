@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horários das Salas</title>
+
+    <link rel="visualizad" href="style.css">
+
+</head>
+<body>
+    <h1>Horários das Salas</h1>
+
+    <hr>
+
+    <h2>Selecione o Curso e Turma</h2>
+    <form>
+        <label for="curso">Curso:</label>
+        <select id="curso" name="curso">
+            <option value="Ciencia">Ciência da computação</option>
+            <option value="Pedagogia">Pedagogia</option>
+            <option value="Eletrica">Engenharia Elétrica</option>
+        </select>
+        <br><br>
+
+        <label for="turma">Turma:</label>
+        <select id="turma" name="turma">
+            <option value="turma_a">Primeiro semestre</option>
+            <option value="turma_a">Segundo semestre</option>
+            <option value="turma_a">Terceiro semestre</option>
+            <option value="turma_a">Quarto semestre</option>
+            <option value="turma_a">Quinto semestre</option>
+            <option value="turma_a">Sexto semestre</option>
+
+        </select>
+        <br><br>
+
+        <label for="data">Selecione a Data:</label>
+        <input type="date" id="data" name="data">
+        <br><br>
+    </form>
+
+    <hr>
+
+    <h2>Horários Disponíveis</h2>
+
+    <!-- Tabela de horários da manhã -->
+    <h3>Manhã</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Horário</th>
+                <th>Sala 1</th>
+                <th>Sala 2</th>
+                <th>Sala 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>08:00 - 09:00</td>
+                <td>Disponível</td>
+                <td>Reservado</td>
+                <td>Disponível</td>
+            </tr>
+            <tr>
+                <td>09:00 - 10:00</td>
+                <td>Reservado</td>
+                <td>Disponível</td>
+                <td>Disponível</td>
+            </tr>
+            <tr>
+                <td>10:00 - 11:00</td>
+                <td>Disponível</td>
+                <td>Disponível</td>
+                <td>Reservado</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Tabela de horários da tarde -->
+    <h3>Tarde</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Horário</th>
+                <th>Sala 1</th>
+                <th>Sala 2</th>
+                <th>Sala 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>13:00 - 14:00</td>
+                <td>Reservado</td>
+                <td>Disponível</td>
+                <td>Disponível</td>
+            </tr>
+            <tr>
+                <td>14:00 - 15:00</td>
+                <td>Disponível</td>
+                <td>Reservado</td>
+                <td>Disponível</td>
+            </tr>
+            <tr>
+                <td>15:00 - 16:00</td>
+                <td>Disponível</td>
+                <td>Disponível</td>
+                <td>Reservado</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Noite</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Horário</th>
+                <th>Sala 1</th>
+                <th>Sala 2</th>
+                <th>Sala 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>18:00 - 19:00</td>
+                <td>Disponível</td>
+                <td>Reservado</td>
+                <td>Disponível</td>
+            </tr>
+            <tr>
+                <td>19:00 - 20:00</td>
+                <td>Reservado</td>
+                <td>Disponível</td>
+                <td>Disponível</td>
+            </tr>
+            <tr>
+                <td>20:00 - 21:00</td>
+                <td>Disponível</td>
+                <td>Disponível</td>
+                <td>Reservado</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
